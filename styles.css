@@ -1,0 +1,84 @@
+body {
+    font-family:serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(107, 212, 226);
+}
+
+header {
+    background-color: rgb(206, 1, 1); 
+    padding: 20px;
+    text-align: center;
+    border: rgb(73, 4, 4) 7px outset;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid rgb(107, 212, 226);
+    border-radius: 8px;
+}
+
+#countdown, #interactive-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1.5px solid #ce0c0c;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #e21d1d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#cuestionario {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+}
+
+.pregunta {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #cf1515;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5d0e0e;
+}
+#imagen-container {
+    display: none; /* Inicialmente oculto */
+}
+/* Ejemplo de Media Query para pantallas pequeñas (móviles) */
+@media screen and (max-width: 600px) {
+    /* Estilos específicos para pantallas pequeñas aquí */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
